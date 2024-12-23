@@ -1,0 +1,87 @@
+*{
+  max-width: 1500px;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{margin: 20px; cursor: pointer; display: inline-block; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+a{text-decoration-line: none;}
+i{margin-left: 500px;}
+header{text-align: center;border-bottom-style: inset; height: 60px;position: sticky;top: 1px;background-color: white; margin-top: -100px;}
+#signin{cursor: pointer;}
+i{cursor: pointer;}
+#boftam{font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: bold;}
+#boftampara{font-family: 'Times New Roman', Times, serif;}
+.boft{background-color: darkslategrey;padding: 10px;color: white;border-radius: 10px;}
+iframe{margin-left: 280px; border-radius: 10px;margin-top: 50px;}
+h3{margin-left: 400px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(61, 74, 92);}
+ul{padding: 0px;
+   margin: 0px;
+   display: inline-block;}
+li{display: inline-block;
+  margin-left: 1px;
+  cursor: pointer;} 
+td{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+.lunchbox{margin-left: 125px;
+            width: 1000px;} 
+.cookdmixes{margin-left: 125px;
+            width: 1000px;
+            cursor: pointer;}   
+#cookdmixes2{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             color: rgb(61, 74, 92);} 
+             button{
+              cursor: pointer;
+             }
+      nav :hover{
+             color:rgb(211, 95, 41) ;
+             font-weight: 20px;
+           
+      }
+       button{
+        transition-property: all;
+        background-color: rgb(211, 95, 41);
+        color: white;
+        font-weight: 20px;
+        
+      } 
+      button:hover{
+              background-color:rgb(61, 74, 92);
+              color:white;
+              font-weight: 20px;
+
+      }
+      .purposegravy th{
+        gap:20px;
+        padding: 10px;
+        display: flex;
+        overflow-x: scroll;
+        margin-left: 180px;
+        max-width: 900px;
+        cursor: pointer;
+      }
+      #allpurposetitle{
+        color:rgb(61, 74, 92) ;
+        text-align: center;
+        font-size: 25px;
+      }
+      .trendingnow th{
+        gap:20px;
+        padding: 10px;
+        display: flex;
+        overflow-x: scroll;
+        margin-left: 180px;
+        max-width: 900px;
+        cursor: pointer;
+
+      }
+      #trendingnowcookd{
+        color:rgb(61, 74, 92) ;
+        text-align: center;
+        font-size: 25px;
+      }
+      p{
+        font-weight: normal;
+      }
+
